@@ -14,7 +14,7 @@ async function getWebinars() {
 }
 
 export default async function Home() {
-  const webinars = await getWebinars();
+  // const webinars = await getWebinars();
 
   return <div>Hello</div>;
 }
