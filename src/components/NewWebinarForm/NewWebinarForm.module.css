@@ -1,0 +1,186 @@
+.form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__input {
+  width: 400px;
+  height: 50px;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  background-color: #15132B;
+  color: #AAAAAA;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.form__textarea {
+  width: 400px;
+  height: 100px;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  background-color: #15132B;
+  color: #AAAAAA;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+input[type="date"].form__dateInput {
+  width: 400px;
+  height: 50px;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  background-color: #15132B;
+  color: #AAAAAA;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.form__section {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section__label {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.section__inputContainer {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section__input {
+  width: 400px;
+  height: 50px;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  background-color: #15132B;
+  color: #AAAAAA;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.section__addButton {
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #464366;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.section__textarea {
+  width: 400px;
+  height: 100px;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  background-color: #15132B;
+  color: #AAAAAA;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.section__speakersList {
+  display: inline-flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.section__speakerItem {
+  width: 400px;
+  height: 50px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #15132B;
+  border-radius: 10px;
+  word-break: break-word;
+}
+
+.speaker {}
+
+.speaker__name {
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #AAAAAA;
+}
+
+.speaker__regalia {
+  font-size: 14px;
+  font-weight: 400;
+  color: #AAAAAA;
+}
+
+.section__agendaList {
+  display: inline-flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.section__agendaItem {
+  width: 400px;
+  height: 50px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #15132B;
+  border-radius: 10px;
+  word-break: break-word;
+  font-size: 14px;
+  font-weight: 600;
+  color: #AAAAAA;
+}
+
+.form__buttonSubmit {
+  padding: 15px 30px;
+  color: white;
+  background-color: #6418C3;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.error {
+  max-width: 400px;
+  margin-bottom: 5px;
+  color: #ff6b6b;
+  font-size: 12px;
+  font-weight: 400;
+}

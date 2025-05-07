@@ -1,0 +1,23 @@
+.loading {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.notFound {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.webinars {
+  min-width: calc(100vw - 345px - 40px);
+  margin: 0 auto;
+}
+
+.webinars__list {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.webinars__item {}
