@@ -18,6 +18,7 @@
 .webinars__list {
   display: inline-flex;
   flex-direction: row;
+  color: white;
 }
 
 .webinars__item {}
