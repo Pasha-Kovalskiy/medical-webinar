@@ -45,6 +45,9 @@ export default function AdminPage() {
     setIsCreateWebinarFormDisplayed((prev) => !prev);
   };
 
+  console.log(key);
+  console.log(secret);
+
   if (key !== secret) {
     return (
       <div
