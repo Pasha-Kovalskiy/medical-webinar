@@ -1,5 +1,9 @@
+'use client';
+
 import Image from 'next/image';
 import styles from './page.module.css';
+
+import Nav from '@/components/Nav/Nav.component';
 
 async function getWebinars() {
   const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/webinars`, {
@@ -13,8 +17,12 @@ async function getWebinars() {
   return res.json();
 }
 
-export default async function Home() {
+export default function Home() {
   // const webinars = await getWebinars();
 
-  return <div>Hello</div>;
+  return (
+    <div className={styles.home}>
+      <Nav />
+    </div>
+  );
 }

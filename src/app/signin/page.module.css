@@ -1,0 +1,105 @@
+.signin {
+  min-height: 100vh;
+  height: 100vh;
+}
+
+.signin__container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.signin__left {
+  height: 100%;
+  width: 500px;
+  background-color: #FFB1B7;
+}
+
+.left {}
+
+.left__content {
+  margin: 50px 0 50px 50px;
+  height: calc(100% - 100px);
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left__text {
+  max-width: 80%;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.signin__right {
+  height: 100%;
+  width: calc(100vw - 500px);
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.notHaveAccount {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.notHaveAccount a {
+  color: #775DA6;
+}
+
+.signinSection {}
+
+.signinSection__header {
+  margin-bottom: 30px;
+  color: #202020;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.form {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.form__input {
+  width: 370px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #DCDCDC;
+}
+
+.forgotPassword {
+  margin-bottom: 20px;
+  color: #775DA6;
+}
+
+.form__submitButton {
+  width: 370px;
+  padding: 15px 0;
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  background-color: #775DA6;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.errorsList {
+  list-style: none;
+}
+
+.errorsList__item {
+  max-width: 400px;
+  margin-bottom: 5px;
+  color: #ff6b6b;
+  font-size: 12px;
+  font-weight: 400;
+}

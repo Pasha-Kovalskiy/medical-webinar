@@ -50,16 +50,7 @@ export default function AdminPage() {
 
   if (key !== secret) {
     return (
-      <div
-        style={{
-          width: '100%',
-          height: '300px',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'center',
-        }}
-      >
+      <div className="accessDenied">
         <h1>Access denied: Invalid key.</h1>
       </div>
     );
